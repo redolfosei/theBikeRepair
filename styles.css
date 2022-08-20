@@ -1,21 +1,169 @@
+html {
+    background-color: #D75281;
+}
+
+body {
+    background-image: url('imgs/image-lion-background.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family:'Roboto',sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.1rem;
+    text-shadow: 10px 8px 8px rgba(0, 0, 0, 0.562); 
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: white;
+    font-family:'playfair Display', serif;
+    margin-top: 20px;
+}
+
 .container {
     width: 1024px; 
     min-height: 300px; /* minimum height to go, can be more */
-    background-color: rgb(11, 75, 11);
     margin: 0px auto 0px auto; /*top right bottom left*/
 }
 
 header {
-    background-color:rgb(48, 139, 48);
-    min-height: 90px;
+    background-color: #D75281;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid white;
 }
 
 main {
-    background-color:rgb(113, 200, 113);
     min-height: 300px;
 }
 
-.cards {
-    background-color:greenyellow;
+.main2 {
     min-height: 300px;
+    padding-top: 50px;
+}
+
+.cards {
+    /* min-height: 300px; min-heights shd go with contents not containers*/
+    display: flex;
+    justify-content: space-between;
+    text-align: center; 
+}
+
+.card1 {
+    background-image: url('imgs/image-background-card1.jpg');
+    min-height: 250px;
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+}
+
+.card2 {
+    background-image: url('imgs/image-background-card2.jpg');
+    min-height: 250px;
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+}
+
+.card3 {
+   background-image: url('imgs/image-background-card3.jpg');
+    min-height: 250px; 
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+}
+
+.cards p {
+    font-size: 0.8rem;
+    line-height: 1.0rem;
+}
+
+.top-boxes {
+    display: flex;
+    min-height: 300px;
+    margin-top: 20px;
+}
+
+.box1 {
+    width: 50%;
+    flex:   2;
+    padding-right: 100px;
+}
+
+.box2 {
+    width: 50%;
+    flex: 1;
+}
+
+.nav-bar a {
+    color:rgb(29, 28, 28);
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.3rem;
+    margin-bottom: 0.4rem;
+    
+}
+
+i {
+    font-size: 100px;
+    padding-top: 20px;
+}
+
+ a {
+    color: white;
+    text-decoration: none;
+}
+
+a.mybtn {
+    background-color: white;
+    color: #D75281;
+    font-family:'Playfair Display','san-serif';
+    padding: 11px 25px;
+    border-radius: 14px  0px;
+    display: inline-block;
+    margin-top: 15px;
+    box-shadow: 10px 8px 8px black;
+}
+
+.mybtn:hover {
+    background-color: black;
+    color: white;
+}
+
+a.navbtn {
+    color: white; 
+    font-family:'Playfair Display','san-serif';
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.testibox{
+    padding: 50px; 
+    width: 48%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.inputwrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

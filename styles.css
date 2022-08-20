@@ -124,7 +124,7 @@ i {
     text-decoration: none;
 }
 
-a.mybtn {
+.mybtn {
     background-color: white;
     color: #D75281;
     font-family:'Playfair Display','san-serif';
@@ -166,4 +166,20 @@ a.navbtn {
 .inputwrapper {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 13.5px 20.5px;
+    width: 50%;
+    font-family: 'Roboto';
+    font-size: 1rem; 
+}
+
+.newline {
+    display: block; 
+    padding-bottom: 12.5px;
+}
+
+form {
+    margin: 30px 0px; 
 }
